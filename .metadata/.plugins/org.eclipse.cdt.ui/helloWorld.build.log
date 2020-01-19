@@ -1,0 +1,25 @@
+23:05:37 **** Build of configuration Emulation-HW for project helloWorld ****
+make -j12 incremental 
+/home/Xilinx/SDx/SDx/2019.1/bin/xocc -t hw_emu --platform xilinx_u200_xdma_201830_2 --save-temps   -c -k vector_add -g --messageDb vector_addition/vector_add.mdb -I"../src" --xp misc:solution_name=vector_add --temp_dir vector_addition --report_dir vector_addition/reports --log_dir vector_addition/logs -o"vector_addition/vector_add.xo" "../src/vector_addition.cl"
+Option Map File Used: '/home/Xilinx/SDx/SDx/2019.1/data/sdx/xocc/optMap.xml'
+
+****** xocc v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+Attempting to get a license: ap_opencl
+INFO: [XOCC 17-1540] The version limit for your license is '2019.07' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Feature available: ap_opencl
+INFO: [XOCC 60-1306] Additional information associated with this xocc compile can be found at:
+	Reports: /home/pabance/LPP/TestingHelloWorld/Emulation-HW/vector_addition/reports/vector_add
+	Log files: /home/pabance/LPP/TestingHelloWorld/Emulation-HW/vector_addition/logs/vector_add
+INFO: [XOCC 60-585] Compiling for hardware emulation target
+INFO: [XOCC 60-1316] Initiating connection to rulecheck server, at Sat Jan 18 23:05:38 2020
+INFO: [XOCC 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u200_xdma_201830_2/xilinx_u200_xdma_201830_2.xpfm
+INFO: [XOCC 60-423]   Target device: xilinx_u200_xdma_201830_2
+INFO: [XOCC 60-242] Creating kernel: 'vector_add'
+make: *** [vector_addition/vector_add.xo] Terminado
+Command canceled
+
+23:10:45 Build Cancelled (took 5m:8s.315ms)
+

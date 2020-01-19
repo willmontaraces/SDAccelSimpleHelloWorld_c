@@ -1,0 +1,4 @@
+INFO: [XOCC 60-423]   Target device: xilinx_u200_xdma_201830_2
+INFO: [XOCC 60-242] Creating kernel: 'vector_add'
+make: *** [vector_addition/vector_add.xo] Terminado
+Command canceled
