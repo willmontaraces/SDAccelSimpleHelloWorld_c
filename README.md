@@ -1,3 +1,5 @@
+This is a mere copy with minor modifications and additions of the official SDAccelExamples repository and aws-fpga repository.
+
 Hello World (HLS C/C++ Kernel)
 ======================
 
